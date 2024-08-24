@@ -1,0 +1,81 @@
+.App {
+  text-align: center;
+  font-family: "Righteous", sans-serif;
+  font-weight: 400;
+  font-size: 25pt;
+}
+
+.App img.start {
+  max-width: 250px;
+  cursor: pointer;
+}
+
+.App .Game {
+  display: flex;
+  letter-spacing: 2pt;
+}
+
+.App .Game .Player {
+   flex-grow: 1;
+}
+
+.App .Game .Computer {
+  flex-grow: 1;
+}
+
+.App .Game img {
+  max-width: 250px;
+  margin: auto;
+}
+
+.App .Game .Player span {
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  font-size: 0.75em;
+}
+
+.App .Game .Player img {
+  max-width: 200px;
+  margin: 0 15px 10px;
+  display: block;
+}
+
+.App pre{
+  padding: 10px;
+  text-align: left;
+  margin: 0 15px 15px;
+  display: block;
+} 
+
+.App .Game .Player.selected img,
+.App .Game img{
+  max-width: 250px;
+  margin: auto; 
+}
+
+.App .Results {
+  letter-spacing: normal;
+  font-size: 35pt;
+}
+
+.App .Results img{
+  display: block;
+  max-width: 75px;
+  cursor: pointer;
+  margin: auto;
+}
+
+.App input {
+  font-family: inherit;
+  font-size: 0.75em;
+  text-align: center;
+  width: 55%;
+  margin: 0 auto 25px;
+  padding: 10px;
+  line-height: 1;
+  background-color: rgb(235, 242, 242);
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 15px;
+  display: block;
+}
